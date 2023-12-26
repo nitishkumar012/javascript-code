@@ -1,11 +1,6 @@
-console.log("THIS IS MY FIRST JAVASCRIPT PROGRAM");
-const rollNo = 2002920100051;
-var age = 20;
-let ageNow = "21";
-number="0123456789";
+// console.log("This is my JAvascript journey start");
+const game=new String('Nitish kumar');
+// console.log(game.__proto__);
+console.log(game.substring(0,4));
 
-console.table([rollNo,age,ageNow,number]);
-
-let houseNo;
-console.log(houseNo);
-
+console.log(game.slice(0,4));
