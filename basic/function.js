@@ -65,3 +65,10 @@
 // }
 // let com=con('I love you');
 // com('Babu');
+
+//                                Immediately Invoked function Expression : This is an function when we want to exection of function fast
+
+(function(name){
+    console.log(`I love mera Shona Babu ${name}`)
+})('Vishu');
+
