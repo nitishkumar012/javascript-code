@@ -68,7 +68,20 @@
 
 //                                Immediately Invoked function Expression : This is an function when we want to exection of function fast
 
-(function(name){
-    console.log(`I love mera Shona Babu ${name}`)
-})('Vishu');
+// (function(name){
+//     console.log(`I love mera Shona Babu ${name}`)
+// })('Vishu');
 
+// Hoisting in javascript this is basically for function and var keyword
+//Hoisting is defined as technique that will decleare function aur variable to the top of code
+// test=10;
+// console.log(test);
+// var test; 
+//is code me humne variable ko console ke bad pass kara hai jab bhi code execute ho raha hai because of hoisting
+ // same like function means we can decleare fun and we can call function before decleration or after decleration
+
+// sname='Vishu'
+//  var val=function(sname){
+//     console.log(sname);
+//  }
+//  val(sname)
