@@ -83,11 +83,13 @@
 //is code me humne variable ko console ke bad pass kara hai jab bhi code execute ho raha hai because of hoisting
  // same like function means we can decleare fun and we can call function before decleration or after decleration
 
-// sname='Vishu'
-//  var val=function(sname){
+// test('Vishu')
+//  function test(sname){
 //     console.log(sname);
 //  }
-//  val(sname)
+
+//hoisting mgr arrow function aur as arrgument pass funnction me nhi hoga
+
 
 
 // ********************************setTimeout*****************************************//
