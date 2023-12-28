@@ -44,14 +44,24 @@
 
 //higher order function mtl function as a arrgument pass karna
 
-let upper=(str)=>{
-    return str.toUpperCase();
-}
-let lower=(str)=>{
-    return str.toLowerCase();
-}
-let high=(str,fun)=>{
-    return fun(str);
-}
-console.log(high('nitish',upper))
-console.log(high("NITISH",lower));
+// let upper=(str)=>{
+//     return str.toUpperCase();
+// }
+// let lower=(str)=>{
+//     return str.toLowerCase();
+// }
+// let high=(str,fun)=>{
+//     return fun(str);
+// }
+// console.log(high('nitish',upper))
+// console.log(high("NITISH",lower));
+
+// another type of higher order function is Function passing as a function arrgument meanst returning an function as arrugument
+
+// let con=function(msg){
+//     return function(name){
+//     console.log(`${msg} meri ${name}`);
+//     }
+// }
+// let com=con('I love you');
+// com('Babu');
