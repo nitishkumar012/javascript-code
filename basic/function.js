@@ -42,3 +42,16 @@
 // let val2=s(val);
 // console.log(val2.length);
 
+//higher order function mtl function as a arrgument pass karna
+
+let upper=(str)=>{
+    return str.toUpperCase();
+}
+let lower=(str)=>{
+    return str.toLowerCase();
+}
+let high=(str,fun)=>{
+    return fun(str);
+}
+console.log(high('nitish',upper))
+console.log(high("NITISH",lower));
