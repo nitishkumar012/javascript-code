@@ -79,3 +79,14 @@ let val2=Math.floor(val);
 let val3=Math.ceil(val);
 let val4=Math.trunc(val);
 console.table([val,val1,val2,val3,val4]);
+
+//*****************************************CALL AND APPLY METHOD**************************************//
+let flight={
+    fname:"JET EXPRESS",
+    fid:"001a",
+    book:function(passenger,age){
+        console.log(`${passenger} whose age is ${age} booked ${this.fname} whose id is ${this.fid} `);
+
+    }
+}
+flight.book('Nitish',21);    
