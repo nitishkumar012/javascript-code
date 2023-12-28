@@ -1,6 +1,9 @@
 // let lang='java javaScript python cSharp';
 // let res=lang.lastIndexOf('S'); 
 // console.log(res);
+
+
+
 /*  **************************************FUNCTION********************************************* */
 // finding the last index fo string using normal function
 // function last(val,str='Nitish'){
@@ -85,3 +88,20 @@
 //     console.log(sname);
 //  }
 //  val(sname)
+
+
+// ********************************setTimeout*****************************************//
+//setTimeout bole to jo output ayga wo kuch delay se ayga 
+//syntax:setTimeout(fun,time)
+//  function greet(){
+//     console.log('good morning babu');
+//  }
+//  setTimeout(greet,5000);
+
+
+//*******************************************setInterval**********************************//
+//setInterval is like isme output me delay to hoga hi asth hi sath repetation bhi hoga 
+// function greet(){
+//     console.log('good morning babu');
+//  }
+//  setInterval(greet,3000);
