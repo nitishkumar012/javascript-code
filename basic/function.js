@@ -1,0 +1,44 @@
+// let lang='java javaScript python cSharp';
+// let res=lang.lastIndexOf('S'); 
+// console.log(res);
+/*  **************************************FUNCTION********************************************* */
+// finding the last index fo string using normal function
+// function last(val,str='Nitish'){
+// console.log(str.lastIndexOf(val));
+// }
+// last('i');
+
+//function that using variable
+
+// let val=function(str){
+//     console.log(str.toUpperCase());
+// }
+// val('nitish kumar');
+
+
+//Arrow Function is an special type function that will use when we want fast execution 
+
+// let val=(name)=>{
+//     return (name.toLowerCase());
+// }
+// let res=val('NITISH KUMAR');
+// console.log(res);
+
+//split
+// let str="Nitish Kumar";
+// console.log(str.split(" "));
+ 
+
+//Slice
+// function s(name){
+//     console.log(name.slice(0,5));
+// }
+// s('Nitish kumar');
+// let s=function(name){
+//     return (name.trim());
+// }
+// let val="  Nitish Kumar   ";
+// console.log(val.length);
+// let val2=s(val);
+// console.log(val2.length);
+
